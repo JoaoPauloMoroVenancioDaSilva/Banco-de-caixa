@@ -6,10 +6,10 @@ public class MainCaixaBancaria {
         int valor;
         int contadornota100 = 0, contadornota50 = 0, contadornota20 = 0, contadornota10 = 0, contadornota5 = 0;
     
-          do{
+          
             System.out.println("Informe o valor que quer sacar: (sendo o valor divisível por 5 fazendo favor.)");
             valor = scanner.nextInt();
-          }while(valor % 5 != 0);
+        
 
             if (valor >= 100) {
                 while (valor >= 100 && contadornota100 < 100) {
