@@ -42,13 +42,15 @@ public class MainCaixaBancaria {
                 }
             }
             
+            if(valor % 5 == 0){
             System.out.println(" Foram sacadas " + contadornota100 + " cédulas de cem reais.");
             System.out.println(" Foram sacadas " + contadornota50 + " cédulas de cinquenta reais.");
             System.out.println(" Foram sacadas " + contadornota20 + " cédulas de vinte reais.");
             System.out.println(" Foram sacadas " + contadornota10 + " cédulas de dez reais.");
             System.out.println(" Foram sacadas " + contadornota5 + " cédulas de cinco reais.");
-
-            
+            } else{
+                System.out.println("Valor inválido. Não é multiplo de 5.");
+            }
        
 
     }
